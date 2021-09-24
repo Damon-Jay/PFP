@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 1
-  _arrivalThreshold: 0.5
+  _arrivalThreshold: 0.1
 --- !u!65 &724971572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1351,6 +1351,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6937878594565937210, guid: cf14e33a85aa6e54da3cd8572e8e273f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7890865398580178901, guid: cf14e33a85aa6e54da3cd8572e8e273f, type: 3}
+      propertyPath: _isBuildable
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

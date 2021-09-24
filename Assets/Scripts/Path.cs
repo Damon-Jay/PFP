@@ -20,8 +20,17 @@ public class Path : MonoBehaviour
 
     public Waypoint GetNextWaypoint(Waypoint currentWaypoint)
     {
+
+        for (int i = 0; i < _waypoints.Length; i++)
+        {
+            if (_waypoints[i] == currentWaypoint)
+            {
+                return _waypoints[i + 1];
+            }
+        }
         // dit is nu niet goed, moet ik nog aanpassen
         // maar heb dan geen error meer
-        return _waypoints[0];
+        return null;
+        
     }
 }
